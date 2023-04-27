@@ -1,0 +1,20 @@
+#calendar {
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+  }
+  
+  #calendar th,
+  #calendar td {
+    padding: 25px;
+    text-align: center;
+  }
+  
+
+  #calendar td {
+    border: 1px solid black;
+    vertical-align: top;
+  }
+  
+  #calendar td.current-day {
+    background-color: greenyellow;
+  }
